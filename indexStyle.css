@@ -6,7 +6,7 @@ body{
 }
 .lightimg{
     width: 50%;
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     height: 100vw;
 }
 .lightimg img{
