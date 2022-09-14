@@ -1,0 +1,15 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: green;
+}
+.lightimg{
+    width: 50%;
+    margin: 0 auto;
+    height: 60vw;
+}
+.lightimg img{
+    width: 100%;
+    height: 100%;
+}
