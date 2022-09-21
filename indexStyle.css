@@ -5,17 +5,17 @@ body{
     background-color: black;
 }
 #lightlogo{
-    width: 70vw;
-    height: 80vw;
+    width: 90vw;
+    height: 100vw;
     display: block;
-    margin: 0 auto;
+    margin: -40px auto;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 #main-back{
-    width: 70vw;
+    width: 90vw;
     height: 120vw;
-    margin: -10px auto 0 auto;
+    margin: 30px auto 0 auto;
     background-color: darkblue;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -25,17 +25,40 @@ body{
     text-align: center;
 }
 .Buttons{
-    padding-top: 8px;
-    display: inline-block;
+    display: flex;
     color: white;
     height: 40px;
     margin-top: 20px;
+    justify-content: center;
+    align-items: center;
     width: 60%;
     background-color: darkslateblue;
     border-radius: 8px;
 }
+#menu{
+    display: flex;
+    background-color: #D40009;
+    width: 50vw;
+    height: 10vw;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0 auto 0 auto;
+    color: black;
+    float: top;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    font-family: Arimo, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#main-back a{
+    text-decoration: none;
+    color: white;
+}
 .Buttons:hover{
     height: 46px;
-    padding-top: 16px;
+    /*padding-top: 16px;*/
     width: 65%;
 }
