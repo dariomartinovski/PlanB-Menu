@@ -8,15 +8,15 @@ body{
     width: 90vw;
     height: 100vw;
     display: block;
-    margin: -40px auto;
+    margin: 0 auto;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
 #main-back{
     width: 90vw;
     height: 120vw;
-    margin: 30px auto 0 auto;
-    background-color: darkblue;
+    margin: -10px auto 0 auto;
+    background-color: #069F00;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     display: flex;
@@ -26,36 +26,39 @@ body{
 }
 .Buttons{
     display: flex;
-    color: white;
+    color: black;
     height: 40px;
     margin-top: 20px;
     justify-content: center;
     align-items: center;
     width: 60%;
-    background-color: darkslateblue;
+    background-color: #00C9BE;
     border-radius: 8px;
 }
-#menu{
-    display: flex;
-    background-color: #D40009;
-    width: 50vw;
-    height: 10vw;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    margin: 0 auto 0 auto;
-    color: black;
-    float: top;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-    font-family: Arimo, serif;
-    font-weight: bold;
-    font-size: 20px;
+.Buttons:last-of-type{
+    margin-bottom: 20px;
 }
+/*#menu{*/
+/*    display: flex;*/
+/*    background-color: white;*/
+/*    width: 50vw;*/
+/*    height: 10vw;*/
+/*    border-bottom-right-radius: 20px;*/
+/*    border-bottom-left-radius: 20px;*/
+/*    margin: 0 auto 0 auto;*/
+/*    color: black;*/
+/*    float: top;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    position: relative;*/
+/*    z-index: 2;*/
+/*    font-family: Arimo, serif;*/
+/*    font-weight: bold;*/
+/*    font-size: 20px;*/
+/*}*/
 #main-back a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .Buttons:hover{
     height: 46px;
