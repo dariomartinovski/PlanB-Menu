@@ -29,11 +29,20 @@ body{
     color: black;
     height: 40px;
     margin-top: 20px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+
     width: 60%;
     background-color: #00C9BE;
     border-radius: 8px;
+    border-color: white;
+    border-width: 5px;
+    border-style: double;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    display: flex;
 }
 .Buttons:last-of-type{
     margin-bottom: 20px;
